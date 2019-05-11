@@ -10,7 +10,8 @@ export default class Demo1 extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Hello Monalis!</Text>              
+                <Text style={{ margin: 10 }}>Hello Monalis!</Text>
+                <Text style={{ color: 'red' }}>Monu</Text>
             </View>
         );
     }
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#F5FCFF',
+        backgroundColor: 'blue',
     }
    
 });
