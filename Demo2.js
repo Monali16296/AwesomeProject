@@ -7,7 +7,7 @@ export default class Demo2 extends Component {
             uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
         };
         return (
-            <View>
+            <View style={{margin: 150}}>
                 <Image source={pic} style={{ width: 193, height: 110 }} />
                 <Text>oo</Text>
             </View>
