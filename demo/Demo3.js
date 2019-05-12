@@ -12,7 +12,7 @@ class New1 extends Component {
 export default class Demo3 extends Component {
     render() {
         return (
-            <View style={{ alignItems: 'center' }} accessible={true}>
+            <View style={{ alignItems: 'center' }} accessible={true} accessibilityLabel="tap me">
                 <New1 name="Sonu" />
                 <New1 name="Mohit" />
             </View>
