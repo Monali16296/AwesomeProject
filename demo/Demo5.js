@@ -5,7 +5,7 @@ export default class Demo5 extends Component {
     render() {
         return (
             <View>
-                <Text style={[styles.blue, styles.red]}> last css has higher precedence, here red is last so it will be applied</Text>
+                <Text style={[styles.blue, styles.red]} accessibilityHint='aaaa'> last css has higher precedence, here red is last so it will be applied</Text>
             </View>
         );
     }
