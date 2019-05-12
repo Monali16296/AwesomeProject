@@ -12,7 +12,7 @@ class New1 extends Component {
 export default class Demo3 extends Component {
     render() {
         return (
-            <View style={{ alignItems: 'center' }}>
+            <View style={{ alignItems: 'center' }} accessible={true}>
                 <New1 name="Sonu" />
                 <New1 name="Mohit" />
             </View>
