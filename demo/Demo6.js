@@ -14,7 +14,7 @@ export default class Demo6 extends Component {
 class MyAppHeaderText extends Component {
     render() {
         return (
-            <Text style={{fontSize: 20}}> {this.props.children}</Text>
+            <Text style={{ fontSize: 20 }} selectable={false}> {this.props.children}</Text>
         );
     }
 }
