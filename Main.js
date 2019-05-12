@@ -7,6 +7,7 @@ import Demo3 from './demo/Demo3';
 import Demo4 from './demo/Demo4';
 import Demo5 from './demo/Demo5';
 import TextInANest from './demo/TextInANest';
+import Demo6 from './demo/Demo6';
 
 export default class Main extends Component {
     render() {
@@ -19,6 +20,7 @@ export default class Main extends Component {
                 <Demo4 />
                 <Demo5 />
                 <TextInANest />
+                <Demo6 />
             </View>
         );
     }
