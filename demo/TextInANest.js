@@ -19,7 +19,9 @@ export default class TextInANest extends Component {
                 <Text numberOfLines={5}>
                     {this.state.bodyText}
                 </Text>
-            </Text>
+                <Text>aa</Text>
+                <Text>cc</Text>
+            </Text>        
         );
     }
 }
