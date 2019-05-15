@@ -1,0 +1,26 @@
+=====using expo (have to install expo app in mobile)
+
+npm install -g expo-cli
+
+npm install -g @hapi/joi
+npm install -g core-js@3
+
+expo init appname
+
+npm start
+
+https://www.youtube.com/watch?v=9xtWSAq0vrw
+
+===========using react-native-cli
+
+=>choco install -y nodejs.install python2 jdk8(avoid nodejs.install if node already installed)
+
+=>npm install -g react-native-cli
+
+=>android_home path var
+
+=>react-native init AwesomeProject(pro name)
+
+=>react-native run-android
+
+run via cable in mobile
